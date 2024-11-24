@@ -1,0 +1,26 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\nonumberline Agradecimientos}{\es@scroman {vii}}{chapter*.7}%
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\nonumberline Summary}{\es@scroman {ix}}{chapter*.8}%
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\nonumberline Resúmen}{\es@scroman {xi}}{chapter*.9}%
+\contentsline {part}{\numberline {I}Fundamento Teórico. Reticulos \& MLWE}{3}{part.1}%
+\contentsline {chapter}{\numberline {1}Capítulo 1}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Primera Seccion}{5}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Capítulo 2}{7}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Primera sección}{7}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Capítulo 3}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Primera sección}{9}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Capítulo 4}{11}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Primera sección}{11}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Capítulo 5}{13}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Primera sección}{13}{section.5.1}%
+\contentsline {chapter}{\numberline {6}Capítulo 6}{15}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Primera sección}{15}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Capítulo 7}{17}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Primera sección}{17}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Capítulo 8}{19}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Primera sección}{19}{section.8.1}%
+\contentsline {chapter}{\numberline {A}Ejemplo de apéndice}{21}{appendix.Alph1}%
+\contentsline {chapter}{Glosario}{23}{chapter*.11}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
