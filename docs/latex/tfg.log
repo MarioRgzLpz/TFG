@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  24 NOV 2024 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.31)  1 DEC 2024 21:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -817,9 +817,19 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 19.
 Package tocbasic Info: Using my definition of `\numberline' on input line 20.
 Package tocbasic Info: Using my definition of `\numberline' on input line 21.
 Package tocbasic Info: Using my definition of `\numberline' on input line 22.
+
+Overfull \hbox (0.50386pt too wide) in paragraph at lines 22--22
+ [][] [][][]\T1/Cabin-TLF/bold/n/12 (-10) Implementaciones realizadas. Metodologia usada para el desarrollo y codigo 
+ []
+
 Package tocbasic Info: Using my definition of `\numberline' on input line 23.
 Package tocbasic Info: Using my definition of `\numberline' on input line 24.
 Package tocbasic Info: Using my definition of `\numberline' on input line 25.
+Package tocbasic Info: Using my definition of `\numberline' on input line 26.
+Package tocbasic Info: Using my definition of `\numberline' on input line 27.
+Package tocbasic Info: Using my definition of `\numberline' on input line 28.
+Package tocbasic Info: Using my definition of `\numberline' on input line 29.
+Package tocbasic Info: Using my definition of `\numberline' on input line 30.
 )
 \tf@toc=\write4
 \openout4 = `tfg.toc'.
@@ -831,10 +841,11 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 25.
 
 {/home/mariorl/.miktex/texmfs/install/fonts/enc/dvips/cabin/cbn_meva6t.enc}]
 
-[6
-
-
-]) (preliminares/agradecimientos.tex
+LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
+(Font)              Font shape `T1/pplj/m/it' tried instead on input line 39.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+[6]) (preliminares/agradecimientos.tex
 chapter without number
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 10.
 (/home/mariorl/.miktex/texmfs/install/tex/latex/inconsolata/t1zi4.fd
@@ -849,6 +860,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 [7
+
+
 
 
 {/home/mariorl/.miktex/texmfs/install/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
@@ -946,8 +959,6 @@ l.18
 
 ])
 
-LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10> not available
-(Font)              Font shape `T1/pplj/m/it' tried instead on input line 62.
 LaTeX Info: Redefining \. on input line 62.
 LaTeX Info: Redefining \% on input line 62.
 
@@ -955,7 +966,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 <to be read again> 
                    \relax 
 l.62 \part
-          {Fundamento Teórico. Reticulos \& MLWE} % Dividir un TFG en parte... [2]
+          {Fundamento Teórico. Reticulos, MDLW \& Crystals-Kyber} % Dividir... [2]
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
@@ -970,7 +981,7 @@ LaTeX Font Info:    Font shape `T1/Cabin-TLF/bold/n' will be
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \part{Fundamento Teórico. Reticulos \& MLWE}
+l.62 ...órico. Reticulos, MDLW \& Crystals-Kyber}
                                                    % Dividir un TFG en parte... [3
 
 
@@ -980,14 +991,17 @@ l.62 \part{Fundamento Teórico. Reticulos \& MLWE}
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.62 \part{Fundamento Teórico. Reticulos \& MLWE}
+l.62 ...órico. Reticulos, MDLW \& Crystals-Kyber}
                                                    % Dividir un TFG en parte... [4] (capitulos/capitulo01.tex
 chapter 1.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/b/n' aliased to
 (Font)              `T1/Cabin-TLF/bold/n' on input line 6.
 LaTeX Font Info:    Font shape `T1/Cabin-TLF/bold/n' will be
 (Font)              scaled to size 13.67995pt on input line 6.
-) (capitulos/capitulo02.tex
+LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 8.
+(/home/mariorl/.miktex/texmfs/install/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+)) (capitulos/capitulo02.tex
 
 [5
 
@@ -1044,7 +1058,7 @@ chapter 6.
 
 ]
 chapter 7.
-) (capitulos/capitulo08.tex
+)
 
 [17]
 
@@ -1052,32 +1066,58 @@ chapter 7.
 
 
 ]
-chapter 8.
-) (apendices/apendice-ejemplo.tex
+part II.
+Package scrkbase Info: You've told me to use the font selection of the element
+(scrkbase)             `partprefix' that is an alias of element `partnumber'
+(scrkbase)              on input line 71.
+
 
 [19]
 
-[20
+[20] (capitulos/capitulo08.tex
+chapter 8.
+) (capitulos/capitulo09.tex
+
+[21
+
+
+]
+
+[22
+
+
+]
+chapter 9.
+) (capitulos/capitulo10.tex
+
+[23]
+
+[24
+
+
+]
+chapter 10.
+) (apendices/apendice-ejemplo.tex
+
+[25]
+
+[26
 
 
 ]
 chapter A.
 ) (glosario.tex
 
-[21]
+[27]
 
-[22
+[28
 
 
-]
-LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 12.
- (/home/mariorl/.miktex/texmfs/install/tex/latex/psnfss/ufplmbb.fd
-File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
-))
+])
 
-[23]
+[29]
 
-[24
+[30
 
 
 ]
@@ -1096,20 +1136,20 @@ Package rerunfilecheck Info: File `tfg.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21331 strings out of 475832
- 374850 string characters out of 5778041
- 938420 words of memory out of 5000000
- 43233 multiletter control sequences out of 15000+600000
- 717617 words of font info for 257 fonts, out of 8000000 for 9000
+ 21377 strings out of 475832
+ 375641 string characters out of 5778041
+ 941420 words of memory out of 5000000
+ 43250 multiletter control sequences out of 15000+600000
+ 721587 words of font info for 269 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  122i,12n,121p,10940b,744s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{BM-Referencias.-1} has been referenced but does not exist, replaced by a fixed one
 
-</home/mariorl/.miktex/texmfs/install/fonts/type1/impallari/cabin/Cabin-Bold.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/impallari/cabin/Cabin-Regular.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/mathpazo/fplmbb.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/fpl/fplrc8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on tfg.pdf (40 pages, 319486 bytes).
+</home/mariorl/.miktex/texmfs/install/fonts/type1/impallari/cabin/Cabin-Bold.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/impallari/cabin/Cabin-Regular.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/mathpazo/fplmbb.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/mathpazo/fplmr.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/fpl/fplrc8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/public/fpl/fplrij8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/urw/palatino/uplb8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/urw/palatino/uplr8a.pfb></home/mariorl/.miktex/texmfs/install/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on tfg.pdf (46 pages, 355800 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 71 named destinations out of 1000 (max. 500000)
- 106206 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 492 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 106246 words of extra memory for PDF output out of 106986 (max. 10000000)
 
