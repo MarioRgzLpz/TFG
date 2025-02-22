@@ -18,4 +18,4 @@ jobs:
       - name: Setup LaTeX environment
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: docs/tfg.tex   
+          root_file: docs/latex/tfg.tex   
