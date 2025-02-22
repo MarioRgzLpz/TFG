@@ -12,10 +12,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup cache for Docker
+        uses: actions/cache@v3
+        with:
+          path: /tmp/.buildx-cache
+          key: ${{ runner.os }}-docker-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-docker-
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Setup LaTeX environment
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: docs/latex/tfg.tex   
+          root_file: docs/latex/tfg.tex  
+          working_directory: docs/latex 
