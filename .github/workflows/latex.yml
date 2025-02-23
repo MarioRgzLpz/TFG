@@ -12,13 +12,33 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup cache for Docker
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Restore Docker image cache
         uses: actions/cache@v3
         with:
-          path: /tmp/.buildx-cache
-          key: ${{ runner.os }}-docker-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-docker-
+          path: /tmp/texlive-full.tar
+          key: ${{ runner.os }}-texlive-docker
+
+      - name: Ensure Docker image is cached
+        run: |
+          if [ ! -f /tmp/texlive-full.tar ]; then
+            echo "Docker image not found in cache. Pulling and saving..."
+            docker pull ghcr.io/xu-cheng/texlive-full:latest
+            docker save ghcr.io/xu-cheng/texlive-full:latest > /tmp/texlive-full.tar
+          else
+            echo "Docker image found in cache."
+          fi
+
+      - name: Load Docker image
+        run: docker load < /tmp/texlive-full.tar
+
+      - name: Save Docker image cache
+        uses: actions/cache@v3
+        with:
+          path: /tmp/texlive-full.tar
+          key: ${{ runner.os }}-texlive-docker
       - name: Checkout repository
         uses: actions/checkout@v3
 
