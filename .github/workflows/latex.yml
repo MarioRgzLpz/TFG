@@ -1,0 +1,22 @@
+name: Compile LaTeX
+
+on:
+  push:
+    paths:
+      - 'docs/latex/**'   
+  pull_request:
+    paths:
+      - 'docs/latex/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup LaTeX environment
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: tfg.tex  
+          working_directory: docs/latex 
